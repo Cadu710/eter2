@@ -1,0 +1,552 @@
+    :root{
+        --bg-color: white;
+        --text-color: #1A1B1C;
+        --eter-blue: #4287F5;
+
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    .bx-menu img{
+        height: 1.25rem;
+    }
+    body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    }
+    header img{
+        height: 7rem;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background:white;
+        padding: 1.75rem 12%;
+        height: 6rem;
+        box-shadow: 0 .5px .5rem 0rem var(--eter-blue   );
+    }
+    .logo:hover{
+        border: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--eter-blue);
+        padding: 0;
+    }
+    a:hover{
+        transition: all .05s ease;
+        border-bottom: solid 2px ;
+    }
+    body{
+        margin: 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar a{
+        color: var();
+        padding: .3125rem 0;
+        margin: 0px 1.87500rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .main a{
+        transition: all .2s;
+        margin-right: 1.5652rem;
+        margin-left: .625rem;
+        color: var(--text-color);
+        font-size: 1.1rem;
+        background-color: var(--eter-blue);
+        padding: .75rem 2rem;
+        color: white;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        border: solid white;
+        font-weight: 500;
+    }
+      .main #outro{
+        margin-right: 0px;
+        margin-left: .625rem;
+        color: var(--text-color);
+        font-size: 1.1rem;
+        background-color: transparent;
+        padding: 0;
+        color: none;
+        border-radius: 0;
+        font-size: 0;
+    }
+    .main a:hover{
+        color: var(--eter-blue);
+        background-color: white;
+        border: solid var(--eter-blue);
+    }
+
+    #Menu-icon{ 
+        cursor: pointer;
+        display: none;
+        z-index: 10001;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 10rem;
+        background-color: transparent;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        height: 35rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+   
+    h1{
+        font-weight: 700;
+        width: 30vw;
+        font-size: 2.8rem;
+    }
+    h2{
+        color: var(--eter-blue);
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .container2 img{
+        height: 25rem;
+        width: auto;
+        border: solid .8rem var(--eter-blue);
+        border-radius: 0.625rem;
+    }
+    .container3{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        background-color: #4287F5;
+        padding: 60px 10%;
+        gap: 5rem;
+    }
+    footer p{
+        font-weight: 400;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer col{
+        width: 25%;
+    }
+    .footer-col a{
+        color: white;
+    }
+    .footer-col h4{
+        position: relative;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: white;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        background-color: var(--eter-blue);
+        height: 2px;
+        width: 40px;
+    }
+    footer ul li{
+        margin-bottom: 8px;
+        font-weight: 500;
+    }
+    footer p{
+        color: white;
+    }
+    footer img{
+        height: 7rem;
+        margin-left: 2rem;
+    }
+    .conteudodir{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: .5rem;
+        padding-left: 2rem;
+    }
+    #perfil{
+        height: 20rem;
+    }
+    #nome{
+        color: #4287F5;
+        font-weight: 700;
+        min-width: 15rem;
+    }
+    #cargo{
+        color: #333536;
+        font-weight: 600;
+        min-width: 15rem;
+        font-style: italic;
+    }
+    #biografia{
+        color: var(--text-color);
+        font-weight: 500;
+        max-width: 20rem;
+        min-height: 20rem;
+    }
+    .conteudodir ul {
+        background-color: #4287F5;
+        height: 40vh;
+        width: 16rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+    .conteudodir ul  a{
+        color: white;
+        font-weight: 600;
+    }
+     .conteudodir ul  li{
+        margin-bottom: 1rem;
+    }
+     .info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .menu p{
+        color: white;
+        cursor: pointer;
+        border-bottom: solid transparent .2rem;
+    }
+    .menu p:hover{
+        transition: all ease .2s;
+        border-bottom: solid white;
+    }
+    .samplecursos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 1.8rem;
+    }
+    .cursocontainer{
+        background-color: white;
+        border: solid .15rem #4287F5;
+        padding: 1.5rem;
+        width: 50%;
+        color: #4287F5;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: .6rem;
+        border-radius: .5rem;
+    }
+    .cursocontainer:hover{
+        cursor: pointer;
+    }
+    .samplecursos span{
+        font-weight: 500;
+    }
+    .samplecursos a:hover{
+        border: none;
+    }
+    .samplecursos p{
+        color: #333536;
+        font-weight: 500;
+    }
+    .samplecursos h3{
+        font-size: 1.25rem
+    }
+    .container3 #mais{
+        background-color: #4287F5;
+        color:white;
+        font-weight: 500;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        width: 12rem;
+        border: solid .2rem white;
+        text-align: center;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        border-radius: .5rem;
+    }
+    .container3 #mais:hover{
+        transition: all .2s ease;
+        background-color: white;
+        color: #4287F5;
+        border-color: #4287F5;
+    }
+    .minspace{
+        height: 6rem;
+    }
+    .banner{
+        background-color: #4287F5;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        font-size: 1.3rem;
+        user-select: none;
+        margin-bottom: 5rem;
+    }
+    .banner h3{
+        font-weight: 600;
+    }
+    @media (max-width: 1480px){
+        .container2 img{
+        height: 20rem;
+        width: auto;
+        border: solid .8rem var(--eter-blue);
+        border-radius: 0.625rem;
+    }
+    .footer-col p{
+        max-width: 300px;
+    
+    }
+    .info #biografia{
+        max-width: 25vw;
+        color: var(--text-color);
+    }
+    .container2 h1{
+        font-size: 2.2rem;
+    }
+    .container3 img{
+        margin-right: 0rem;
+    }
+}
+
+    @media (max-width: 1280px){
+        header{
+            padding: .875rem;
+            transition: .2s;
+        }
+        .navbar a{
+            padding: .3125rem 0;
+            margin: 0 1.25rem
+        }
+        h1{
+        width: 30vw;
+        font-size: 2.4rem;
+        }
+        .container2 img{
+        height: 20rem;
+        width: auto;
+        border: solid .8rem var(--eter-blue);
+        border-radius: 0.625rem;
+    }footer img{
+        margin-left: 0;
+    }
+    .menu ul{
+        width: 14rem;
+    }
+    .menu ul p{
+        width: 12rem;
+        white-space: nowrap;
+    }
+
+    .container3{
+        margin-top: 0rem;
+        }
+    
+    }
+
+    @media (max-width: 1090px){
+        #Menu-icon{
+            display: block;
+        }
+        .navbar{
+            position: absolute;
+            top: 100%;
+            right: -100%;
+            width: 16.875rem;
+            height: fit-content;
+            background: var(--eter-blue);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            border-radius: 0rem;
+            transition: all .50s ease;
+        }
+        .navbar a{
+            display: block;
+            margin: .75rem 0;
+            padding: 0 1.5625rem;
+            transition: all .50s ease;
+            color: white;
+        }
+        .navbar a:hover{
+            color: white;
+            transform: translateY(0.3125rem);
+        }
+        .navbar a.active{
+            color: white;
+        }
+        .navbar.open{
+            right: 0%;
+            width: 100vw;
+            text-align: left;
+        }
+        .navbar.open a{
+            border-bottom: solid .1rem white;
+            padding-bottom: .5rem;
+        }
+        .container2 img{
+        height: 14rem;
+        width: auto;
+        border: solid .8rem var(--eter-blue);
+        border-radius: 0.625rem;
+        }
+        h1{
+            font-size: 1.8rem;
+            width: 26rem;
+        }
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .menu ul{
+            width: 15rem;
+            text-align: left;
+            margin-top: -2rem;
+        }
+        .menu ul li{
+            border-bottom: solid white 1px;
+            padding-bottom: .2rem;
+        }
+        .menu ul p:hover{
+            border-color: transparent;
+        }
+        
+            .container3 img{
+                margin-top: 1.5rem;
+                height: 16rem;
+            }
+    }
+        @media (max-width: 768px){
+            .minspace{
+                background-color: blue;
+                height: 5rem;
+            }
+            .container2{
+                flex-direction: column;
+                margin-top: 0;
+                height: 35rem;
+                margin-top: -5rem
+            }
+            h1{
+                width: 85vw;
+                text-align: center;
+                font-size: 1.5rem;
+                margin-bottom: -8rem;
+            }
+            .informacoes{
+            margin-top: 2rem;
+            }
+            header{
+                height: 5rem;
+            }
+            header img{
+                height: 5rem;
+            }
+            footer{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5rem;
+            }
+    footer h4{
+        text-align: center;
+    }
+    footer li{
+        text-align: center;
+    }
+    footer img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer p{
+        text-align: center;
+    }
+    .main .entrar{
+        font-size: .8rem;
+    }
+    .conteudodir{
+        flex-direction: column;
+    }
+    .informacoes{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    #biografia{
+        min-width: 15rem;
+    
+    }
+    .conteudodir ul{
+        margin-top: 0rem;
+    }
+    .info{
+        justify-content: center;
+    }
+    .samplecursos h3{
+        font-size: 1rem
+    }
+        }
+    @media (max-width: 620px){
+        .container2 img{
+            height: 12rem;
+            border-width: .5rem;
+        }
+        .container3{
+            margin-top: -1rem;
+        }
+        .container2 h1{
+            width: 20rem;
+        }
+        .cursocontainer{
+        width: 80%;
+    }
+    }
