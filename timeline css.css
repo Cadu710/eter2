@@ -467,7 +467,7 @@
     }
         @media (max-width: 768px){
             .minspace{
-                background-color: blue;
+                background-color: (--eter-blue);
                 height: 5rem;
             }
             .container2{
