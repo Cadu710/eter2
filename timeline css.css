@@ -38,7 +38,7 @@
         background:white;
         padding: 1.75rem 12%;
         height: 6rem;
-        box-shadow: 0 .5px .5rem 0rem var(--eter-   );
+        box-shadow: 0 .5px .5rem 0rem var(--eter-blue);
     }
     .logo:hover{
         border: none;
@@ -46,7 +46,7 @@
 
     a{
         text-decoration: none;
-        color: var(--eter-);
+        color: var(---eter-blue);
         padding: 0;
     }
     a:hover{
@@ -82,7 +82,7 @@
         margin-left: .625rem;
         color: var(--text-color);
         font-size: 1.1rem;
-        background-color: var(--eter-);
+        background-color: var(--eter-blue);
         padding: .75rem 2rem;
         color: white;
         border-radius: 0.5rem;
@@ -102,9 +102,9 @@
         font-size: 0;
     }
     .main a:hover{
-        color: var(--eter-);
+        color: var(--eter-blue);
         background-color: white;
-        border: solid var(--eter-);
+        border: solid var(--eter-blue);
     }
 
     #Menu-icon{ 
@@ -132,14 +132,14 @@
         font-size: 2.8rem;
     }
     h2{
-        color: var(--eter-);
+        color: var(--eter-blue);
         font-size: 1.8rem;
         font-weight: 600;
     }
     .container2 img{
         height: 25rem;
         width: auto;
-        border: solid .8rem var(--eter-);
+        border: solid .8rem var(--eter-blue);
         border-radius: 0.625rem;
     }
     .container3{
@@ -155,7 +155,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 5rem;
-        background-color: #4287F5;
+        background-color: var(--eter-blue);
         padding: 60px 10%;
         gap: 5rem;
     }
@@ -183,7 +183,7 @@
         position: absolute;
         left: 0;
         bottom: -6px;
-        background-color: var(--eter-);
+        background-color: var(--eter-blue);
         height: 2px;
         width: 40px;
     }
@@ -336,7 +336,7 @@
         .container2 img{
         height: 20rem;
         width: auto;
-        border: solid .8rem var(--eter-);
+        border: solid .8rem var(--eter-blue);
         border-radius: 0.625rem;
     }
     .footer-col p{
@@ -371,7 +371,7 @@
         .container2 img{
         height: 20rem;
         width: auto;
-        border: solid .8rem var(--eter-);
+        border: solid .8rem var(--eter-blue);
         border-radius: 0.625rem;
     }footer img{
         margin-left: 0;
@@ -400,7 +400,7 @@
             right: -100%;
             width: 16.875rem;
             height: fit-content;
-            background: var(--eter-);
+            background: var(--eter-blue);
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -433,7 +433,7 @@
         .container2 img{
         height: 14rem;
         width: auto;
-        border: solid .8rem var(--eter-);
+        border: solid .8rem var(--eter-blue);
         border-radius: 0.625rem;
         }
         h1{
