@@ -38,7 +38,7 @@
         background:white;
         padding: 1.75rem 12%;
         height: 6rem;
-        box-shadow: 0 .5px .5rem 0rem var(--eter-blue   );
+        box-shadow: 0 .5px .5rem 0rem var(--eter-   );
     }
     .logo:hover{
         border: none;
@@ -46,7 +46,7 @@
 
     a{
         text-decoration: none;
-        color: var(--eter-blue);
+        color: var(--eter-);
         padding: 0;
     }
     a:hover{
@@ -82,7 +82,7 @@
         margin-left: .625rem;
         color: var(--text-color);
         font-size: 1.1rem;
-        background-color: var(--eter-blue);
+        background-color: var(--eter-);
         padding: .75rem 2rem;
         color: white;
         border-radius: 0.5rem;
@@ -102,9 +102,9 @@
         font-size: 0;
     }
     .main a:hover{
-        color: var(--eter-blue);
+        color: var(--eter-);
         background-color: white;
-        border: solid var(--eter-blue);
+        border: solid var(--eter-);
     }
 
     #Menu-icon{ 
@@ -132,14 +132,14 @@
         font-size: 2.8rem;
     }
     h2{
-        color: var(--eter-blue);
+        color: var(--eter-);
         font-size: 1.8rem;
         font-weight: 600;
     }
     .container2 img{
         height: 25rem;
         width: auto;
-        border: solid .8rem var(--eter-blue);
+        border: solid .8rem var(--eter-);
         border-radius: 0.625rem;
     }
     .container3{
@@ -183,7 +183,7 @@
         position: absolute;
         left: 0;
         bottom: -6px;
-        background-color: var(--eter-blue);
+        background-color: var(--eter-);
         height: 2px;
         width: 40px;
     }
@@ -214,7 +214,7 @@
         height: 20rem;
     }
     #nome{
-        color: #4287F5;
+        color: var(--eter-blue);
         font-weight: 700;
         min-width: 15rem;
     }
@@ -231,7 +231,7 @@
         min-height: 20rem;
     }
     .conteudodir ul {
-        background-color: #4287F5;
+        background-color: var(--eter-blue);
         height: 40vh;
         width: 16rem;
         padding: 1rem;
@@ -268,10 +268,10 @@
     }
     .cursocontainer{
         background-color: white;
-        border: solid .15rem #4287F5;
+        border: solid .15rem var(--eter-blue);
         padding: 1.5rem;
         width: 50%;
-        color: #4287F5;
+        color: var(--eter-blue);
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -295,7 +295,7 @@
         font-size: 1.25rem
     }
     .container3 #mais{
-        background-color: #4287F5;
+        background-color: var(--eter-blue);
         color:white;
         font-weight: 500;
         margin-top: 1rem;
@@ -310,14 +310,14 @@
     .container3 #mais:hover{
         transition: all .2s ease;
         background-color: white;
-        color: #4287F5;
-        border-color: #4287F5;
+        color: var(--eter-blue);
+        border-color: var(--eter-blue);
     }
     .minspace{
         height: 6rem;
     }
     .banner{
-        background-color: #4287F5;
+        background-color: var(--eter-blue);
         width: 100%;
         height: 100px;
         display: flex;
@@ -336,7 +336,7 @@
         .container2 img{
         height: 20rem;
         width: auto;
-        border: solid .8rem var(--eter-blue);
+        border: solid .8rem var(--eter-);
         border-radius: 0.625rem;
     }
     .footer-col p{
@@ -371,7 +371,7 @@
         .container2 img{
         height: 20rem;
         width: auto;
-        border: solid .8rem var(--eter-blue);
+        border: solid .8rem var(--eter-);
         border-radius: 0.625rem;
     }footer img{
         margin-left: 0;
@@ -400,7 +400,7 @@
             right: -100%;
             width: 16.875rem;
             height: fit-content;
-            background: var(--eter-blue);
+            background: var(--eter-);
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -433,7 +433,7 @@
         .container2 img{
         height: 14rem;
         width: auto;
-        border: solid .8rem var(--eter-blue);
+        border: solid .8rem var(--eter-);
         border-radius: 0.625rem;
         }
         h1{
@@ -467,7 +467,7 @@
     }
         @media (max-width: 768px){
             .minspace{
-                background-color: (--eter-blue);
+                background-color: var(--eter-blue);
                 height: 5rem;
             }
             .container2{
