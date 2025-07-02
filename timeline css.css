@@ -38,7 +38,7 @@
         background:white;
         padding: 1.75rem 12%;
         height: 6rem;
-        box-shadow: 0 .5px .5rem 0rem var(--eter-blue);
+        box-shadow: 0 .5px .5rem 0rem var(--eter-blue   );
     }
     .logo:hover{
         border: none;
@@ -46,7 +46,7 @@
 
     a{
         text-decoration: none;
-        color: var(---eter-blue);
+        color: var(--eter-blue);
         padding: 0;
     }
     a:hover{
@@ -65,7 +65,7 @@
         display: flex;
     }
     .navbar a{
-        color: var(--eter-blue);
+        color: var();
         padding: .3125rem 0;
         margin: 0px 1.87500rem;
         font-size: 1.1rem;
@@ -155,7 +155,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 5rem;
-        background-color: var(--eter-blue);
+        background-color: #4287F5;
         padding: 60px 10%;
         gap: 5rem;
     }
@@ -212,26 +212,30 @@
     }
     #perfil{
         height: 20rem;
+        transition: opacity 0.5s ease-in-out;
     }
     #nome{
-        color: var(--eter-blue);
+        color: #4287F5;
         font-weight: 700;
         min-width: 15rem;
+        transition: opacity 0.5s ease-in-out;
     }
     #cargo{
         color: #333536;
         font-weight: 600;
         min-width: 15rem;
         font-style: italic;
+        transition: opacity 0.5s ease-in-out;
     }
     #biografia{
         color: var(--text-color);
         font-weight: 500;
         max-width: 20rem;
         min-height: 20rem;
+        transition: opacity 0.5s ease-in-out; 
     }
     .conteudodir ul {
-        background-color: var(--eter-blue);
+        background-color: #4287F5;
         height: 40vh;
         width: 16rem;
         padding: 1rem;
@@ -268,15 +272,18 @@
     }
     .cursocontainer{
         background-color: white;
-        border: solid .15rem var(--eter-blue);
+        border: solid .15rem #4287F5;
         padding: 1.5rem;
         width: 50%;
-        color: var(--eter-blue);
+        color: #4287F5;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         gap: .6rem;
         border-radius: .5rem;
+    }
+    .cursocontainer p{
+        max-width: 50%;
     }
     .cursocontainer:hover{
         cursor: pointer;
@@ -295,7 +302,7 @@
         font-size: 1.25rem
     }
     .container3 #mais{
-        background-color: var(--eter-blue);
+        background-color: #4287F5;
         color:white;
         font-weight: 500;
         margin-top: 1rem;
@@ -310,14 +317,14 @@
     .container3 #mais:hover{
         transition: all .2s ease;
         background-color: white;
-        color: var(--eter-blue);
-        border-color: var(--eter-blue);
+        color: #4287F5;
+        border-color: #4287F5;
     }
     .minspace{
         height: 6rem;
     }
     .banner{
-        background-color: var(--eter-blue);
+        background-color: #4287F5;
         width: 100%;
         height: 100px;
         display: flex;
@@ -353,6 +360,9 @@
     .container3 img{
         margin-right: 0rem;
     }
+    .cursocontainer p{
+        max-width: 70%;
+    }
 }
 
     @media (max-width: 1280px){
@@ -387,7 +397,9 @@
     .container3{
         margin-top: 0rem;
         }
-    
+    .cursocontainer p{
+        max-width: 90%;
+    }
     }
 
     @media (max-width: 1090px){
@@ -464,10 +476,13 @@
                 margin-top: 1.5rem;
                 height: 16rem;
             }
+            .cursocontainer p{
+        max-width: 100%;
+    }
     }
         @media (max-width: 768px){
             .minspace{
-                background-color: var(--eter-blue);
+                background-color: blue;
                 height: 5rem;
             }
             .container2{
@@ -534,7 +549,11 @@
     .samplecursos h3{
         font-size: 1rem
     }
-        }
+    .cursocontainer p{
+        max-width: 100%;
+        font-size: .85rem;
+    }
+    }
     @media (max-width: 620px){
         .container2 img{
             height: 12rem;
